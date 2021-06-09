@@ -75,6 +75,15 @@ export class MockServer {
             params,
             queryParams
           };
+          // uncomment to capture test vectors
+          // console.log(JSON.stringify({
+            //   route,
+            //   body,
+            //   headers,
+            //   params,
+            //   queryParams
+            // }, null, 2)
+          // );
           const result = await callback(request);
           // the first argument from a handler is the statusCode in express.
           const [status] = result;

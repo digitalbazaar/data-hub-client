@@ -1,0 +1,7 @@
+{
+    "secret": "testKaK0123456789testKaK01234567",
+    "publicKey": {
+        "publicKeyBase58": "EgtuExkyZgS5o4vCePzZWMaP1sYnTkgKoY9tDygfv4Sd"
+    },
+    "derivedSecret": "xaQgh3mrtf9G43O5USe4tzABLkeYi9J7U2SaytW9NwY"
+}

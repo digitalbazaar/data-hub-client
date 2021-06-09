@@ -1,0 +1,8 @@
+{
+    "keyPair": {
+        "publicKeyBase58": "3n6stGrydgUEQSXA4zxWbvdUvpiVwHDgZp2H9SxqY6gw",
+        "privateKeyBase58": "5RB6LPkGsS1nuSM7NRmdAiFLGnLvKXH3kYDPyEoAZXUjXaK6QxQC51kxH6vWUWNDGXkAYKLejbHHFTZXgA3LB8a3"
+    },
+    "message": "123",
+    "signature": "PKg1REbt2Ooc8O9cK1F9KHQO87_4txAX3SYQHFZ48L_2M1XHdE0pF0X29Y-CUFZJXcMMj-T8Am_OgZbQQ2taAQ"
+}

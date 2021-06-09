@@ -1,0 +1,27 @@
+{
+  "vault": {
+    "create": {
+      "headers": {
+        "accept": "application/ld+json, application/json",
+        "host": "localhost:9876",
+        "capability-invocation": "zcap id=\"http://localhost:9876/edvs/zcaps/vaults\",action=\"write\"",
+        "digest": "mh=uEiCNeORSxfOCyAK6rTLurlwbfRHUz7gfTn-njjJEvZDVGQ",
+        "content-type": "application/json",
+        "authorization": "Signature keyId=\"did:key:z6MkiTBz1ymuepAQ4HEHYSF1H8quG5GLVVQR3djdX3mDooWp#z6MkiTBz1ymuepAQ4HEHYSF1H8quG5GLVVQR3djdX3mDooWp\",headers=\"(key-id) (created) (expires) (request-target) host capability-invocation content-type digest\",signature=\"s08akByK8KR9grbZOtKXolZ8ysa6ZLqSOBg+JdOxqgxVjDhgwR2zhYEkRtHmqjTaSmrfhucRJtp6OsC4vyt2Aw==\",created=\"1602879801289\",expires=\"1602880401289\""
+      },
+      "url": "http://localhost:9876/edvs",
+      "body": {
+        "sequence": 0,
+        "controller": "did:key:z6MkiTBz1ymuepAQ4HEHYSF1H8quG5GLVVQR3djdX3mDooWp",
+        "keyAgreementKey": {
+          "id": "did:key:z6MkiTBz1ymuepAQ4HEHYSF1H8quG5GLVVQR3djdX3mDooWp#z6LShs9GGnqk85isEBzzshkuVWrVKsRp24GnDuHk8QWkARMW",
+          "type": "X25519KeyAgreementKey2019"
+        },
+        "hmac": {
+          "id": "urn:multibase:uEqwxeY_UyPYkKFB8PVihJdLlrAQKeAh50Z3ay2QO1wzC",
+          "type": "Sha256HmacKey2019"
+        }
+      }
+    }
+  }
+}
